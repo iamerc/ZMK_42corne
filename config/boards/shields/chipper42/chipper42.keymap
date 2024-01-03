@@ -2,10 +2,10 @@
 #include "../../../zmk-nodefree-config/keypos_def/keypos_42keys.h"
 
 /* map 6 extra keys */
-#define X_LT  &mt LS(LC(LALT)) ESC
-#define X_LM  &mt RS(RC(RA(RGUI))) TAB
-#define X_LB  &mt LCTRL BSPC
-#define X_RT  &mt RS(RC(RA(RGUI))) DEL
+#define X_LT  &kp TAB
+#define X_LM  &kp CAPSLOCK
+#define X_LB  &kp LSHIFT
+#define X_RT  &kp DELETE
 #define X_RM  &kp RET
 #define X_RB  &kp RALT
 
