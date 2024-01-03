@@ -5,7 +5,7 @@
 #define X_LT  &kp TAB
 #define X_LM  &kp CAPSLOCK
 #define X_LB  &kp LSHIFT
-#define X_RT  &kp DELETE
+#define X_RT  &kp BACKSPACE
 #define X_RM  &kp RET
 #define X_RB  &kp RALT
 
