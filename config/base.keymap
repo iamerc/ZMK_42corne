@@ -1,4 +1,4 @@
-#include <behaviors.dtsi>
+~~#include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #if CONFIG_WIRELESS
     #include <dt-bindings/zmk/bt.h>
@@ -241,7 +241,7 @@ ZMK_LAYER(base,
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
     X_LB     ___           &kp Z         &kp X         &kp C          &kp V                   &kp B         &kp N         &kp M         &kp COMMA     &kp DOT         &kp SLASH
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-                                         &sk LGUI      ___           &lt NAV SPC              &lt NUM SPC   &kp RET       &kp K_BACK
+                                         &sk LGUI      ___           &lt NAV SPC              &lt NUM SPC   &kp K_FORWARD &kp K_BACK
 //                                     ╰────────────┼──────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────┼─────────────╯
 )
 
